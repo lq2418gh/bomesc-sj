@@ -1,0 +1,116 @@
+/*demo.css*/
+body {font-family:'Microsoft YaHei',sans-serif;padding:20px;font-size:14px;margin:0;background: #fff;font-size:14px;}
+.calendar{font-size: 12px;}
+h2 {font-size:18px;font-weight:bold;margin:0;margin-bottom:15px;}
+.clear{clear: both;}
+.hide{display:none}
+.inbl{display:inline-block}
+.ml5{margin-left: 5px;}
+.mr20{margin-right: 20px;}
+.mt10{margin-top: 10px;}
+.mt5{margin-top: 5px;}
+.mt20{margin-bottom: 20px;}
+.fleft{float: left}
+.h120{height: 120px;}
+.w60{width: 60px;}
+.w80{width: 80px;}
+.w90{width: 90px;}
+.w100{width: 100px;}
+.w120{width: 120px;}
+.w150{width: 150px;}
+.w200{width: 200px;}
+.w220{width: 220px;}
+.w240{width: 240px;}
+.w250{width: 250px;}
+.w280{width: 280px;}
+.w300{width: 300px;}
+.w490{width: 490px;}
+.w500{width: 500px;}
+.m5{margin-left:5px;margin-right:5px;}
+.m10{margin-left:10px;margin-right:10px;}
+.ml10{margin-left:10px}
+.ml13{margin-left:13px}
+.ml15{margin-left:15px}
+.ml20{margin-left:20px}
+.ml23{margin-left:23px}
+.ml30{margin-left:30px}
+.ml50{margin-left:50px}
+.ml90{margin-left:90px}
+.required{color: red;margin-right: 5px;}
+.redspan,.greenspan,.orangespan{padding: 2px 15px;color: #fff;display:inline-block;width:70px;text-align: center;}
+.redspan{background:#d9534f;}
+.greenspan{background:#60c560;}
+.orangespan{background:#f0ad4e;}
+.fitem{margin-bottom:5px;color: #636775;}
+.fitem label{display:inline-block;vertical-align: top;width:80px;text-align: right;margin-right:8px;}
+.in_bl{display:inline-block;}
+.edit_form_big .fitem label{width:120px}
+.edit_form_big .fitem input,select{width:300px}
+.edit_form_big .fitem input[type='radio']{width:13px;margin:3px}
+.edit_form_big .fitem input[type='checkbox']{width:13px;margin:3px}
+.edit_form .fitem label{width:80px}
+.edit_form .fitem input,combo{width:160px}
+.requiredSpan{color:red;vertical-align: sub;padding-left:4px}
+/*border:1px solid #95B8E7;*/
+.search_table{border-collapse:separate;width:98%;border-spacing:8px; margin-left: 10px;margin-bottom: 20px;margin-top: 5px;}
+.search_table td{text-align: left;padding-left:10px;}
+.search_div{margin-left:10px;width:98%}
+.search_div .search_item{display: inline-block;margin-right:10px;margin-bottom:5px}
+.search_all_div{width:100%;max-height:99px;overflow-y: auto}
+input{outline: none;height:26px}
+input[type='radio'],input[type='checkbox']{height:13px}
+.search_button{border-top-left-radius:0;border-bottom-left-radius:0}
+.red{color:red}
+.green{color:green}
+.vSub{vertical-align:sub;display:inline-block}
+.system_auth{width:200px;height:400px;float:left;border:1px solid #95B8E7;overflow: auto;margin-right:5px}
+.preview_image{width:300px;height:170px;margin-left:130px;margin-top:5px;border:1px solid #95B8E7;border-radius:5px}
+.preview_image_small{width:150px;height:45px;margin-left:90px;margin-top:5px;border:1px solid #95B8E7;border-radius:5px}
+.cBoth{clear:both}
+.datagrid_div{padding-left:10px}
+.treeUl{width:24%;float: left;border:1px solid #95B8E7;height:98%;margin-top:5px}
+.header_a{margin-left:5px;text-decoration: none;float:right;color: #ffffff;}
+.pointer{cursor: pointer;}
+/*菜单*/
+.menuUl{
+	padding: 0;
+	margin: 0;
+	/*background-color: #66ccff;*/
+}
+.menuUl li{
+	list-style-type:none;
+	display: block;
+	padding: 10px 10px 10px 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	/*border-bottom: 1px solid #99ffff;*/
+}
+.menuUl li:hover{
+	background-color: #E2E2E2;
+	text-decoration: none;
+}
+li.fold{
+	list-style-image:url(../img/fold.png)
+}
+li.open{
+	list-style-image:url(../img/open.png)
+}
+/*easyui样式*/
+.datagrid-header-row,
+.datagrid-row {
+  height: 30px;
+}
+.datagrid-editable-input{height:26px}
+.validatebox-text{padding-left:4px;padding-right:4px}
+.popTree{width:100%;margin-top:0px;height:95%;border:0px;}
+/*审批流程页面*/
+.roleTable{font-size:12px;}
+.left{width:34px;}
+.right{width:100px;}
+/*编辑页面样式*/
+.titleMessage{
+  		font-size:17px;
+  		background:#00CCFF; 
+  		color:#FFF;
+  		padding:10px,10px,10xp,10px;
+  }
